@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  security:
+    user:
+      name: yloayza
+      password: yloayza2022
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yanfranco18/service-product-config.git
+          search-paths: /
+          default-label: "main"
+
