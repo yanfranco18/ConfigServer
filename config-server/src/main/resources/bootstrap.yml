@@ -11,5 +11,5 @@ spring:
         git:
           uri: https://github.com/yanfranco18/service-product-config.git
           search-paths: /
-          default-label: "main"
+          default-label: "dev"
 
